@@ -2,7 +2,7 @@
 import inquirer from "inquirer";
 // random Number Generator
 let randomNumber = Math.floor(Math.random() * 6) + 1;
-//console.log(randomNumber);
+//console.log(randomNumbers);
 console.log("Wellcome to Number Guessing Game");
 let SelectedNumber = await inquirer.prompt([{ message: "Please guess a number between 1 to 6 :", type: "number", name: "chooseNumber" }]);
 //Condition Checking
